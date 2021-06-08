@@ -1,6 +1,6 @@
 function iniciaMapa(){
-    var informacion = "<h1>Aquí lo esperamos</h1>"
-    var styledMapType = new google.maps.StyledMapType(
+    var informacion = "<h3>Aquí lo esperamos</h3>"
+    /*var styledMapType = new google.maps.StyledMapType(
         [
             {
               "elementType": "geometry",
@@ -277,7 +277,7 @@ function iniciaMapa(){
             }
           ],
         {name: 'Mapa Oscuro'}
-    );
+    );*/
 
     var propiedades = {
         center: { 
