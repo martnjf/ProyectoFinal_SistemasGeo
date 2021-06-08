@@ -1,10 +1,10 @@
-.map {
+#map {
     margin-top: 40px;
     margin-left: 50px;
     width: 80%;
     height: 540px;
-    z-index: 0;
     justify-content: center;
+    z-index: 1000;
     outline: #ff6c0c solid 10px;
     margin: auto;  
     padding: 20px;

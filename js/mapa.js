@@ -1,6 +1,5 @@
 function iniciaMapa(){
 
-
     var styledMapType = new google.maps.StyledMapType(
         [
             {
@@ -297,7 +296,4 @@ function iniciaMapa(){
 
     map.mapTypes.set('style_map', styledMapType);
     map.setMapTypeId('style_map');
-
-
-
 }
