@@ -1,5 +1,5 @@
 var autos = document.getElementById("autos");
-fetch('datos.json')
+fetch('./js/datos.json')
 .then( function(response){
 
     response.json().then( function(datos){
