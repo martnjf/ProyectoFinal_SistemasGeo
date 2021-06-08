@@ -1,0 +1,29 @@
+[
+    {
+      "num_models": 3,
+      "img_url": "http://www.carlogos.org/uploads/car-logos/Chrysler-logo-1.jpg",
+      "max_car_id": 104,
+      "id": 1,
+      "name": "chrysler",
+      "avg_horsepower": 291.3333333333333,
+      "avg_price": 32971.666666666664
+    },
+    {
+      "num_models": 8,
+      "img_url": "http://www.carlogos.org/uploads/car-logos/Honda-logo-1.jpg",
+      "max_car_id": 152,
+      "id": 2,
+      "name": "honda",
+      "avg_horsepower": 190.625,
+      "avg_price": 27965
+    },
+    {
+      "num_models": 18,
+      "img_url": "http://www.carlogos.org/uploads/car-logos/Mercedes-Benz-logo-1.jpg",
+      "max_car_id": 270,
+      "id": 3,
+      "name": "mercedes-benz",
+      "avg_horsepower": 333.94444444444446,
+      "avg_price": 80681.94444444444
+    }
+]

@@ -4,7 +4,7 @@ function iniciaMapa(){
         center: {
             lat : 21.11553, lng : -101.65769
         },
-        zoom: 10
+        zoom: 20
     };
     const mapa =  document.getElementById("map");
     const map = new google.maps.Map(mapa,propiedades);
