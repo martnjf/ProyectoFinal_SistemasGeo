@@ -5,4 +5,7 @@
     height: 540px;
     z-index: 0;
     justify-content: center;
+    outline: #ff6c0c solid 10px;
+    margin: auto;  
+    padding: 20px;
 }

@@ -1,4 +1,6 @@
 function iniciaMapa(){
+
+
     var styledMapType = new google.maps.StyledMapType(
         [
             {
@@ -277,6 +279,7 @@ function iniciaMapa(){
           ],
         {name: 'Mapa Oscuro'}
     );
+
     var propiedades = {
         center: { 
              lat: 21.152639, lng:  -101.711598
@@ -287,8 +290,14 @@ function iniciaMapa(){
         }
         
     };
+
     var mapa = document.getElementById("map");
+
     var map = new google.maps.Map(mapa, propiedades);
+
     map.mapTypes.set('style_map', styledMapType);
     map.setMapTypeId('style_map');
+
+
+
 }
