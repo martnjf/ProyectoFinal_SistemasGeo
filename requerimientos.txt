@@ -1,8 +1,8 @@
-1. Uso de html, css y js.
-2. Subir proyecto a github.
-3. Publicar proyecto en github pages.
-4. Uso de bootstrap.
-5. Proyecto responsivo.
+1. ***Uso de html, css y js.								
+2. ***Subir proyecto a github.
+3. ***Publicar proyecto en github pages.
+4. ***Uso de bootstrap.
+5. ***Proyecto responsivo.
 6 y 7. Uso de 2 características de Google Maps Platform.
 	- Markers.
 	- Idiomas.
@@ -10,7 +10,7 @@
 	- Marker clustering.
 	- Object navigator para detectar geolocalización.
 	- Uso de infoWindow
-	- Estilizando mapas.
+	- ***Estilizando mapas.
 	- Uso de watchPosition.
 	- Controles de mapa.
 	- API Places.
