@@ -1,13 +1,22 @@
-var autos = document.getElementById("autos");
-fetch('./js/datos.json')
+fetch('../js/datos.json')
 .then( function(response){
-
     response.json().then( function(datos){
-        datos.forEach( registro => {
-            console.log(registro.name);
-            let nombre = document.createElement("p");
-            nombre.textContent = "Nombre: " + registro.name + ", Precio promedio: $" + registro.avg_price;
-            autos.appendChild(nombre);
+    datos.forEach( registro => {    
+        let nombre = `
+        <div class="card col-12 col-md-4" style="width: 18rem;">
+            <img src="${registro.img_url}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">${registro.name}</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+        </div>`;
+        $("#autos").append(nombre);
         });
     });
+    // col
 });

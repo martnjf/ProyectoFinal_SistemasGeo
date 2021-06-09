@@ -1,28 +1,28 @@
 [
     {
       "num_models": 3,
-      "img_url": "http://www.carlogos.org/uploads/car-logos/Chrysler-logo-1.jpg",
+      "img_url": "https://ca-times.brightspotcdn.com/dims4/default/be22fa0/2147483647/strip/true/crop/1349x899+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F96%2F47%2Fcb61c4d7c9aed1c843a21b4195f7%2Fhoyla-aut-porque-chrysler-esta-considerada-la-001",
       "max_car_id": 104,
       "id": 1,
-      "name": "chrysler",
+      "name": "Chrysler",
       "avg_horsepower": 291.3333333333333,
       "avg_price": 32971.666666666664
     },
     {
       "num_models": 8,
-      "img_url": "http://www.carlogos.org/uploads/car-logos/Honda-logo-1.jpg",
+      "img_url": "https://www.dasweltauto.com.mx/carimg/2/640/480/1/46872098/20702275093.jpg",
       "max_car_id": 152,
       "id": 2,
-      "name": "honda",
+      "name": "Honda",
       "avg_horsepower": 190.625,
       "avg_price": 27965
     },
     {
       "num_models": 18,
-      "img_url": "http://www.carlogos.org/uploads/car-logos/Mercedes-Benz-logo-1.jpg",
+      "img_url": "https://i.blogs.es/a7865d/mercedes-benz-a-class_sedan-2019-1600-23/840_560.jpg",
       "max_car_id": 270,
       "id": 3,
-      "name": "mercedes-benz",
+      "name": "Mercedes-benz",
       "avg_horsepower": 333.94444444444446,
       "avg_price": 80681.94444444444
     }
