@@ -1,8 +1,8 @@
-1. ***Uso de html, css y js.								
-2. ***Subir proyecto a github.
-3. ***Publicar proyecto en github pages.
-4. ***Uso de bootstrap.
-5. ***Proyecto responsivo.
+1.  ***Uso de html, css y js.								
+2.  ***Subir proyecto a github.
+3.  ***Publicar proyecto en github pages.
+4.  ***Uso de bootstrap.
+5.  ***Proyecto responsivo.
 6 y 7. Uso de 2 características de Google Maps Platform.
 	- Markers.
 	- Idiomas.
@@ -16,6 +16,6 @@
 	- API Places.
 	- Geocoding y reverse geocoding.
 	- Places autocomplete.
-8. Consumo de un recurso API con FETCH en formato JSON.
-9. Uso de Firestore.
+8.  ***Consumo de un recurso API con FETCH en formato JSON.
+9.  Uso de Firestore.
 10. Uso de Autentificación con Firebase.
