@@ -27,3 +27,6 @@
     color:#ff6c0c;
     font-family: 'Staatliches', cursive;
 }
+.logged-in, .logged-out {
+    display: none;
+}

@@ -7,12 +7,11 @@ fetch('../js/datos.json')
             <img src="${registro.img_url}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${registro.name}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">${registro.name}</li>
+                <li class="list-group-item">Precio promedio: $${registro.avg_price}</li>
+                <li class="list-group-item">Modelos disponibles: ${registro.num_models}</li>
             </ul>
         </div>`;
         $("#autos").append(nombre);

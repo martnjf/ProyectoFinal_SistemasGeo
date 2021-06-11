@@ -17,5 +17,5 @@
 	- Geocoding y reverse geocoding.
 	- Places autocomplete.
 8.  ***Consumo de un recurso API con FETCH en formato JSON.
-9.  Uso de Firestore.
-10. Uso de Autentificación con Firebase.
+9.  ***Uso de Firestore.
+10. ***Uso de Autentificación con Firebase.
