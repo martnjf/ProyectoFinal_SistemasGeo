@@ -13,7 +13,7 @@ function iniciaMapa(){
         lat : 20.94562937009317, lng : -101.43458139735137
     }
 
-    const marker_gadi = new google.maps.Map.Marker({
+    const marker_gadi = new google.maps.Marker({
         position2: posicion2, 
         map,
         title: "gadi"
@@ -43,11 +43,11 @@ function iniciaMapa(){
                     
         });
     }
-    /*
+    
     let posicion = {
         lat : 20.94562937009317, lng : -101.43458139735137
     }
-    */
+    
     map.mapTypes.set('style_map', styledMapType);
     map.setMapTypeId('style_map');
 }
