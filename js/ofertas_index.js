@@ -13,9 +13,7 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
 const db = firebase.firestore();
-
-
-
+ 
 const lstLoggedOut = document.querySelectorAll('.logged-out');
 const lstLoggedIn = document.querySelectorAll('.logged-in');
 const datosdelacuenta = document.querySelector('.datosdelacuenta');

@@ -4,17 +4,28 @@
         <!-- Fuentes -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Bootstrap y Estilos CSS -->
-        <link href="./styles/styles.css" rel="stylesheet"> 
-        <link href="./styles/cards.css" rel="stylesheet"> 
-        <link href="./styles/mapa.css" rel="stylesheet"> 
+
+        <!-- FontAwesome-->
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
+        <!-- Styles CSS -->
+        <link href="../styles/styles.css" rel="stylesheet"> 
+        <link href="../styles/cards.css" rel="stylesheet"> 
+        <link href="../styles/mapa.css" rel="stylesheet">       
+        <link href="../styles/contacto.css" rel="stylesheet"> 
+
+        <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
         <!-- Firebase -->
         <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+        
         <title>Autopartes Gadi®</title>
     </head>
     <body>
@@ -40,7 +51,7 @@
                             <a class="nav-link" href="./html/ofertas.html">Ofertas exclusivas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#seccion-2">Colaboradores</a>
+                            <a class="nav-link" href="#seccion-2">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +71,7 @@
                     <div class="overlay-image" style="background-image:url(./img/foto1.jpeg);">
                         <div class="container ">
                             <h1>Autopartes Gadi</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, natus hic modi soluta ab aspernatur eveniet fuga! Alias doloremque dicta, architecto impedit iure provident rem est ad eaque esse natus!</p>
+                            <p>Autopartes Gadi, es el eslabón entre fabricantes de refacciones y consumidor final, es el respaldo como el asesor - proveedor con el poder de negociación para obtener la garantía, la calidad y el precio, para trasladarlo al consumidor final.</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +79,7 @@
                     <div class="overlay-image" style="background-image:url(./img/foto2.jpg);">
                         <div class="container">
                             <h1>Las mejores autopartes en Silao, Guanajuato</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, natus hic modi soluta ab aspernatur eveniet fuga! Alias doloremque dicta, architecto impedit iure provident rem est ad eaque esse natus!</p>
+                            <p>Ponte en contacto con nosotros, tenemos piezas de colisión, eléctrico, enfriamiento, frenos, inyección, masas y baleros, chicotes, motor, suspensión y dirección, pregunta por nuestras promociones.</p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +87,7 @@
                     <div class="overlay-image" style="background-image:url(./img/foto3.jpg);">
                         <div class="container">
                             <h1>Garantía, calidad y precio</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, natus hic modi soluta ab aspernatur eveniet fuga! Alias doloremque dicta, architecto impedit iure provident rem est ad eaque esse natus!</p>
+                            <p>Contamos con las mejores marcas en el mercado para surtir un gran inventario que ponemos a tu disposición en nuestra matriz o cualquiera de nuestras sucursales en Silao Gto.</p>
                         </div>
                     </div>
                 </div>
@@ -94,43 +105,38 @@
         <div id="map"></div>
         <br>
         <br>
-        <!-- Section 2 **** COLABORADORESS ****-->
-        <!--
+        <!-- Contacto -->
         <div class="texto-naranja" id="seccion-2">
-            <hr width="100%" color="#ff6c0c" size="15px" noshade>
             <br>
-            <h1>Nuestros colaboradores nos respaldan</h1>  
+            <h1>Contáctanos</h1> 
+            <br>
             <br>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <div class="col-12 col-md-3 m-2">
-                        <a href="#">
-                            <img alt="AltText" src="https://res.cloudinary.com/germanparts/image/upload/v1594497870/brands/MOBIL.jpg" class="img-colab">
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-3 m-2">
-                        <a href="#">
-                            <img alt="AltText" src="https://res.cloudinary.com/germanparts/image/upload/v1594497870/brands/MOBIL.jpg" class="img-colab">
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-3 m-2">
-                        <a href="#">
-                            <img alt="AltText" src="https://res.cloudinary.com/germanparts/image/upload/v1594497870/brands/MOBIL.jpg" class="img-colab">
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-3 m-2">
-                        <a href="#">
-                            <img alt="AltText" src="https://res.cloudinary.com/germanparts/image/upload/v1594497870/brands/MOBIL.jpg" class="img-colab">
-                        </a>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">             
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <br>
+                    <br>                   
+                    <ul class="ul_">
+                        <li class="ul_li">
+                            <a class="ul_li_a" href="https://www.facebook.com/AutopartesGadi"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="ul_li">
+                            <a class="ul_li_a" href="http://google.com/+AutopartesgadiMatriz"> <i class="fa fa-google-plus-official" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="ul_li">
+                            <a class="ul_li_a" href="https://github.com/martnjf"> <i class="fa fa-github" aria-hidden="true"></i> </a>
+                        </li>
+                        <li class="ul_li">
+                            <a class="ul_li_a" href="https://www.instagram.com/gadi_autopartes/"> <i class="lni lni-instagram-original" aria-hidden="true"></i> </a>
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
                 </div>
-                <div class="col-2"></div>
             </div>
-        </div>
-        -->
+        </nav>
+        
         <!-- Script -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./js/mapa.js"></script>

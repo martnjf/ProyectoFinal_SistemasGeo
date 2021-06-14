@@ -22,6 +22,7 @@ frmIngresar.addEventListener('submit', (e) => {
         console.log(cred);
 
         $('#ingresarmodal').modal('hide');
+        location.reload();
         frmIngresar.reset(); 
         frmIngresar.querySelector('.error').innerHTML='';
 
@@ -29,10 +30,9 @@ frmIngresar.addEventListener('submit', (e) => {
         frmIngresar.querySelector('.error').innerHTML=msjError(err.code); 
         console.log(err);
     });
-
-
+    
 });
-
+ 
 function msjError(codigo){
     let mensaje = '';
     switch(codigo){
@@ -57,6 +57,7 @@ salir.addEventListener('click', (e)=>{
     e.preventDefault();
 
     auth.signOut().then(()=>{
+        location.reload();
         alert('Sesión cerrada');  
     });
 });

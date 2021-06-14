@@ -4,14 +4,19 @@
         <!-- Fuentes -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-        
+
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Styles CSS -->
+        <!-- Bootstrap y Estilos CSS -->
         <link href="../styles/styles.css" rel="stylesheet"> 
-        <link href="../styles/cards.css" rel="stylesheet">
+        <link href="../styles/cards.css" rel="stylesheet"> 
+        <link href="../styles/contacto.css" rel="stylesheet"> 
+
+        <!-- Fontawesome-->
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 
         <!-- Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -22,34 +27,28 @@
         
         <title>Autopartes Gadi®</title>
     </head>
-    <body>
-        <!-- Navbar  -->
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #26519f;">
-            <div class="container-fluid">
-                <a class="navbar-brand texto-naranja" href="#">
-                    <img src="../img/gadilogo.png" alt="" width="75" height="42" class="d-inline-block align-text-top">
-                    Autopartes Gadi
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Autos API Fetch-->
-        <center>
-            <div class="container ">
-                <div id="autos" class="row"></div>
-            </div>
-        </center>
-        
+    <body class="bodyy">
+        <div class="texto-naranja">
+            <br>
+            <h1>Nuestras redes sociales</h1> 
+            <br>
+        </div>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/AutopartesGadi"> <i class="fab fa-facebook" aria-hidden="true"></i> </a>
+            </li>
+            <li>
+                <a href="http://google.com/+AutopartesgadiMatriz"> <i class="fa fa-google-plus-official" aria-hidden="true"></i> </a>
+            </li>
+            <li>
+                <a href="https://github.com/martnjf"> <i class="fa fa-github" aria-hidden="true"></i> </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/gadi_autopartes/"> <i class="lni lni-instagram-original" aria-hidden="true"></i> </a>
+            </li>
+        </ul>
         <!-- Script -->
+        <script src="https://kit.fontawesome.com/475e3fd80c.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="../js/autos.js"></script>
         <script src="../js/datos.json"></script>

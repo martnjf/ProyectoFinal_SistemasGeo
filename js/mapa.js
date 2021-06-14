@@ -22,7 +22,7 @@ function iniciaMapa(){
         map,
         title: "Marcador"
     }
-
+ 
     const marcador = new google.maps.Marker(propiedadesMarcador);
     map.setCenter(posicion)
     
