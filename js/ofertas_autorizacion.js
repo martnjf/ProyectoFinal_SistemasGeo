@@ -75,7 +75,7 @@ frmRegistrar.addEventListener('submit', (e)=>{
             nombre: frmRegistrar['r_nombre'].value,
             direccion: frmRegistrar['r_direccion'].value
         });
-
+ 
     }).then(()=>{
         $('#registrarmodal').modal('hide');
         frmRegistrar.reset();

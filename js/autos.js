@@ -5,7 +5,7 @@ fetch('../js/datos.json')
         let nombre = `
         <div class="card card-1 col-12 col-md-4 m-2" style="width: 18rem;">
             <img src="${registro.img_url}"  class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body"> 
                 <h5 class="card-title">${registro.name}</h5>
             </div>
             <ul class="list-group list-group-flush">

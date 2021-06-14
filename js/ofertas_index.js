@@ -44,7 +44,7 @@ const configurarMenu = (user) => {
 const lstOfertas = document.getElementById('lstOfertas');
 
 const obtieneOfertas = (data) => {
-    if(data.length){
+    if(data.length){ 
 
         let html = '';       
         

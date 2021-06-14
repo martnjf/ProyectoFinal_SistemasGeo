@@ -4,13 +4,13 @@
 4.  ***Uso de bootstrap.
 5.  ***Proyecto responsivo.
 6 y 7. Uso de 2 características de Google Maps Platform.
-	- Markers.
+	- ***Markers.
 	- Idiomas.
 	- Shapes.
 	- Marker clustering.
 	- Object navigator para detectar geolocalización.
-	- Uso de infoWindow
-	- ***Estilizando mapas.
+	- ***Uso de infoWindow
+	- Estilizando mapas.
 	- Uso de watchPosition.
 	- Controles de mapa.
 	- API Places.
