@@ -23,7 +23,7 @@ function iniciaMapa(){
         title: "Marcador"
     }
 
-    const marker = new google.maps.Marker(propiedadesMarcador);
+    const marcador = new google.maps.Marker(propiedadesMarcador);
     map.setCenter(posicion)
     
     const infowindow = new google.maps.InfoWindow({
