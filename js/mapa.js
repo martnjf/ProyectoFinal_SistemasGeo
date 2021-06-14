@@ -1,13 +1,23 @@
-var informacion = "<h1>Usted está aquí</h1>"
+var informacion = "<h3>Usted está aquí</h1>"
 function iniciaMapa(){
     var propiedades = {
         center: {
             lat : 20.94562937009317, lng : -101.43458139735137
         },
-        zoom: 15
+        zoom: 10
     };
     const mapa =  document.getElementById("map");
     const map = new google.maps.Map(mapa,propiedades);
+
+    let posicion2 = {
+        lat : 20.94562937009317, lng : -101.43458139735137
+    }
+
+    const marker_gadi = new google.maps.Map.Marker({
+        position2: posicion2, 
+        map,
+        title: "gadi"
+    });
 
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(position => {
