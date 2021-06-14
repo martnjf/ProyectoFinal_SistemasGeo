@@ -1,4 +1,4 @@
-var informacion = "<h1>usted está aquí</h1>"
+var informacion = "<h1>Usted está aquí</h1>"
 function iniciaMapa(){
     var propiedades = {
         center: {
