@@ -3,8 +3,8 @@ fetch('../js/datos.json')
     response.json().then( function(datos){
     datos.forEach( registro => {    
         let nombre = `
-        <div class="card col-12 col-md-4" style="width: 18rem;">
-            <img src="${registro.img_url}" class="card-img-top" alt="...">
+        <div class="card card-1 col-12 col-md-4 m-2" style="width: 18rem;">
+            <img src="${registro.img_url}"  class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${registro.name}</h5>
             </div>
